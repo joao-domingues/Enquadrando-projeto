@@ -14,7 +14,7 @@ df['id'] = np.nan
 df['poster_link'] = np.nan
 df = df.replace(' ', '%20', regex=True)
 base = 'https://api.themoviedb.org/3/search/movie?api_key='
-api = '62837be5d9c3e91a14b19abfd99a0368'
+api = '----'
 meio = '&language=en-US&query='
 fim = '&page=1&include_adult=false&year='
 df['movie_link']=df['movie_link'].fillna(base + api + meio + df['nome']+ fim +df.ano.astype(str))
