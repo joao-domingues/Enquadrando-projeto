@@ -9,8 +9,8 @@ import numpy as np
 import urllib
 
 # setting o environment
-os.environ['SPOTIPY_CLIENT_ID'] = 'b590132ceacf4d6cba0781260348eb56'
-os.environ['SPOTIPY_CLIENT_SECRET'] = 'f99ce5525c6c411692d2cf060ab78a6d'
+os.environ['SPOTIPY_CLIENT_ID'] = ''
+os.environ['SPOTIPY_CLIENT_SECRET'] = ''
 os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost'
 
 # processo de OAuth, vai abrir uma página pra confirmar
